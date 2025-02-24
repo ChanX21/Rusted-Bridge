@@ -1,0 +1,19 @@
+[package]
+name = "rusted-bridge-crosschain"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A cross-chain bridge between BASE and Ethereum implementing ERC-7683"
+
+[dependencies]
+ethers = { version = "2.0", features = ["ws", "rustls"] }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+async-trait = "0.1"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+dotenv = "0.15"
+hex = "0.4"
+eyre = "0.6" 
