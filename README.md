@@ -1,6 +1,6 @@
 # RustedBridge - Cross-Chain Bridge
 
-A secure cross-chain bridge implementation between BASE and Ethereum, following the ERC-7683 standard. This bridge enables secure asset transfers between the Ethereum mainnet and Base network.
+A secure cross-chain bridge implementation between BASE and Ethereum, following the ERC-7683 standard. This bridge enables secure asset transfers between the Ethereum and Base network.
 
 ## Features
 
